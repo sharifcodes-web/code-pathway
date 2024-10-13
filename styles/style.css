@@ -3,6 +3,7 @@
     font-family: "Azeret Mono", monospace;
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 /* nav bar styles start */
 nav{
@@ -16,8 +17,10 @@ nav{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 100vh;
+    /* height:100vh; */
     text-align: center;
+    /* margin: 5px auto; */
+
 
 }
 .banner-content{
@@ -50,3 +53,66 @@ nav{
     text-decoration: none;
     border-radius: 5px;
 }
+/* nav bar style end */
+
+/* main section styling */
+.main-parent{
+    background-color: rgba(112, 109, 109, 0.322);
+    max-width:1140px;
+    margin: auto;
+    border-radius: 10px;
+    padding: 20px 0px;
+
+}
+.flex-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 946px;
+    gap:200px;
+    margin:  20px auto;
+    padding: 20px;
+    border-radius: 5px; ;
+    background-color: rgba(248, 241, 241, 0.524);
+}
+.decoration h3,.decoration p{
+    margin-bottom: 20px;
+}
+.my-inspiration{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 1140px;
+    margin: auto;
+}
+.inspiration-text{
+    width: 946px;
+    padding: 70px;
+}
+.inspiration-text h3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+
+}
+.inspiration{
+   width: 946px;
+   padding: 20px;
+   /* border-radius: 20px; */
+   border:  1px solid gray;
+}
+.inspiration iframe{
+    width: 100%;
+    height: 600px;
+    border-radius: 10px;
+}
+/* main remain */
+
+/* footer start */
+.support-part{
+    background-image: url("/assets/handshake.jpg");
+}
+
+
