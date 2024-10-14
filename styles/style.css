@@ -132,7 +132,6 @@ nav{
 }
 .terget{
     display: flex;
-    flex-direction: row;
     align-items: center;
     justify-content: space-between;
     max-width: 1140px;
@@ -175,6 +174,33 @@ nav{
     max-width: 100px;
     margin-bottom: 15px; ;
 }
+.next-target{
+    text-align: center;
+
+}
+.target-parent{
+    max-width: 1140px;
+    margin:10px auto;
+}
+.target{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 946px;
+    padding: 20px;
+    border: 1px solid gray;
+    margin:10px auto;
+    border-radius: 10px;
+
+}
+.target, img{
+    gap: 20px;
+    
+}
+.target,h3 .target,a{
+    margin: 20px 0;
+}
+
 /* main remain */
 
 /* footer start */
