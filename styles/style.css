@@ -130,6 +130,10 @@ nav{
     text-align: center;
     margin: 10px auto;
 }
+.next-target{
+    text-align: center;
+    padding: 10px 10px;
+}
 .terget{
     display: flex;
     align-items: center;
@@ -179,26 +183,27 @@ nav{
 
 }
 .target-parent{
-    max-width: 1140px;
+    /* max-width: 1140px; */
     margin:10px auto;
 }
 .target{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 946px;
+    width: 1140px;
     padding: 20px;
     border: 1px solid gray;
-    margin:10px auto;
+    margin:40px auto;
     border-radius: 10px;
 
 }
 .target, img{
     gap: 20px;
+
     
 }
 .target,h3 .target,a{
-    margin: 20px 0;
+    padding: 20px 20px;
 }
 
 /* main remain */
